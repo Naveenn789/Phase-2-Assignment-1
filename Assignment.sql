@@ -1,9 +1,9 @@
---create database OurExcersiceDb
+create database OurExcersiceDb
 
---on primary(name='OurEccercise_Db' ,Filename='C:\Mphasis\phase-2\Day-23\Assignment\OurExercises.mdf',
---size=24MB,Maxsize=48MB, filegrowth=4MB)
---log on (name= 'OurExerciseDb1_log', Filename='C:\Mphasis\phase-2\Day-23\Assignment\OurExercises.ldf')
---COLLATE SQL_Latin1_General_CP1_CI_AS
+on primary(name='OurEccercise_Db' ,Filename='C:\Mphasis\phase-2\Day-23\Assignment\OurExercises.mdf',
+size=24MB,Maxsize=48MB, filegrowth=4MB)
+log on (name= 'OurExerciseDb1_log', Filename='C:\Mphasis\phase-2\Day-23\Assignment\OurExercises.ldf')
+COLLATE SQL_Latin1_General_CP1_CI_AS
 
 use OurExcersiceDb
 
